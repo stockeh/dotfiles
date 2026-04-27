@@ -11,4 +11,4 @@ My personal macOS setup.
    ./setup.sh
    ```
 
-The setup is a thin wrapper that runs the scripts in [`scripts/`](./scripts/) (Homebrew, Ghostty, zsh, etc.). More will be added over time.
+The setup is a thin wrapper that runs the scripts in [`scripts/`](./scripts/). More will be added over time.
