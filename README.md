@@ -5,9 +5,13 @@ My personal macOS setup.
 ## Setup
 
 1. Manually download and install each app listed in [`applications.txt`](./applications.txt).
-2. Run the setup:
+2. Open Ghostty and run:
 
    ```sh
+   mkdir -p ~/Development/stockeh
+   cd ~/Development/stockeh
+   git clone https://github.com/stockeh/dotfiles.git
+   cd dotfiles
    ./setup.sh
    ```
 

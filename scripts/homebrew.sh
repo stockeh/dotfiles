@@ -14,7 +14,7 @@ else
   echo "Homebrew already installed."
 fi
 
-brew install bat eza uv
+brew install bat eza uv codex
 
 # needed for ghostty font
 brew install --cask font-fira-code-nerd-font

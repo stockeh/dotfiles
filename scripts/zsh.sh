@@ -10,7 +10,12 @@ fi
 ZSH_CUSTOM="${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}"
 ZSHRC="$HOME/.zshrc"
 
-# eza aliases
+# path
+cat > "$ZSH_CUSTOM/path.zsh" <<'EOF'
+export PATH="$HOME/.local/bin:$PATH"
+EOF
+
+# aliases
 cat > "$ZSH_CUSTOM/aliases.zsh" <<'EOF'
 alias ls='eza'
 alias l='eza --long --group-directories-first --icons=always'
