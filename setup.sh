@@ -31,7 +31,7 @@ run "ghostty" "$DIR/scripts/ghostty.sh" || true
 run "zsh"     "$DIR/scripts/zsh.sh"     || true
 run "ai"      "$DIR/scripts/ai.sh"      || true
 run "git"     "$DIR/scripts/git.sh"     || true
-run "dock"    "$DIR/scripts/dock.sh"    || true
+run "macos"   "$DIR/scripts/macos.sh"   || true
 
 mkdir -p "$HOME/Development/scratch"
 

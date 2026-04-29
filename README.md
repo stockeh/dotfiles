@@ -8,8 +8,8 @@ My personal macOS setup.
 2. Open Ghostty and run:
 
    ```sh
-   mkdir -p ~/Development/stockeh
-   cd ~/Development/stockeh
+   mkdir -p $HOME/Development/stockeh
+   cd $HOME/Development/stockeh
    git clone https://github.com/stockeh/dotfiles.git
    cd dotfiles
    ./setup.sh
